@@ -6,15 +6,16 @@
 //
 
 import UIKit
+import Kingfisher
 
 class PreviewTableViewCell: UITableViewCell {
 
-    
-    @IBOutlet weak var foodImage: UIImageView!
-    @IBOutlet weak var lblImage: UILabel!
-    @IBOutlet weak var lblDescription: UILabel!
+    @IBOutlet weak var foodImg: UIImageView!
+    @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var lblDes: UILabel!
     @IBOutlet weak var lblPrice: UILabel!
     @IBOutlet weak var lblDiscount: UILabel!
+    
     
     
     override func awakeFromNib() {
@@ -26,6 +27,21 @@ class PreviewTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func setupView(foodItem: FoodItems){
+        lblName.text = foodItem.foodName
+        lblDes.text = foodItem.foodDescription
+        lblPrice.text = "LKR \(foodItem.foodPrice)"
+        foodImg.kf.setImage(with: URL(string: foodItem.Image))
+        
+        if foodItem.discount > 0 {
+            lblDes.isHidden = false
+            lblDiscount.text = "\(foodItem.discount)%"
+        }else {
+            lblDes.isHidden = true
+            lblDiscount.text = ""
+        }
     }
     
 }

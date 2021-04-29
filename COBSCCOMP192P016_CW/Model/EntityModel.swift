@@ -14,10 +14,12 @@ struct User{
     var userPassword: String
 }
 
-struct FoodItem {
+struct FoodItems {
     var id: String
     var foodName: String
     var foodDescription: String
-    var foodPrice: String
-    var discount: String
+    var foodPrice: Double
+    var discount: Int
+    var Image: String
+    var category: String
 }

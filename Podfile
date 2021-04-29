@@ -9,4 +9,5 @@ target 'COBSCCOMP192P016_CW' do
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'Firebase/Database'
+  pod 'Kingfisher'
 end

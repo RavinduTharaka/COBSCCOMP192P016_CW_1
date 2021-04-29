@@ -63,12 +63,11 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="foodImage" destination="94P-sP-uwp" id="abe-0N-XUQ"/>
-                <outlet property="imageView" destination="94P-sP-uwp" id="Epg-3h-Q1r"/>
-                <outlet property="lblDescription" destination="flz-v0-1yC" id="r32-Mb-dKq"/>
-                <outlet property="lblDiscount" destination="bor-K4-kEA" id="7fP-hP-265"/>
-                <outlet property="lblImage" destination="fiP-QA-xlD" id="p0a-VU-IEw"/>
-                <outlet property="lblPrice" destination="r5x-FI-E1D" id="GEv-mt-juB"/>
+                <outlet property="foodImg" destination="94P-sP-uwp" id="Se2-IP-vwN"/>
+                <outlet property="lblDes" destination="flz-v0-1yC" id="vwg-OY-dYd"/>
+                <outlet property="lblDiscount" destination="bor-K4-kEA" id="ZyC-Fv-Hn6"/>
+                <outlet property="lblName" destination="fiP-QA-xlD" id="kc9-Mn-kaT"/>
+                <outlet property="lblPrice" destination="r5x-FI-E1D" id="wgK-GE-HOI"/>
             </connections>
             <point key="canvasLocation" x="197.10144927536234" y="113.83928571428571"/>
         </tableViewCell>

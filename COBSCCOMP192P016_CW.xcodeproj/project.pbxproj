@@ -18,10 +18,14 @@
 		B56585302636D03D0066343E /* EntityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B565852F2636D03D0066343E /* EntityModel.swift */; };
 		B56585332636D77D0066343E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56585322636D77D0066343E /* MainViewController.swift */; };
 		B56585372636E7270066343E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56585362636E7270066343E /* SessionManager.swift */; };
+		B5675A93263AD6640074A4C6 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5675A92263AD6640074A4C6 /* PreviewViewController.swift */; };
 		B5AA5D3F2636ECA800A2AC9F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA5D3E2636ECA800A2AC9F /* SignUpViewController.swift */; };
 		B5AA5D422636F24400A2AC9F /* InputValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA5D412636F24400A2AC9F /* InputValidation.swift */; };
 		B5AA5D4B263AB2B200A2AC9F /* PreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AA5D49263AB2B200A2AC9F /* PreviewTableViewCell.swift */; };
 		B5AA5D4C263AB2B200A2AC9F /* PreviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5AA5D4A263AB2B200A2AC9F /* PreviewTableViewCell.xib */; };
+		B5D1BFDD263AEA7A004FF23D /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1BFDB263AEA7A004FF23D /* CategoryTableViewCell.swift */; };
+		B5D1BFDE263AEA7A004FF23D /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D1BFDC263AEA7A004FF23D /* CategoryTableViewCell.xib */; };
+		B5D1BFE1263AEAF2004FF23D /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1BFE0263AEAF2004FF23D /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,10 +42,14 @@
 		B565852F2636D03D0066343E /* EntityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityModel.swift; sourceTree = "<group>"; };
 		B56585322636D77D0066343E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B56585362636E7270066343E /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		B5675A92263AD6640074A4C6 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		B5AA5D3E2636ECA800A2AC9F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B5AA5D412636F24400A2AC9F /* InputValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidation.swift; sourceTree = "<group>"; };
 		B5AA5D49263AB2B200A2AC9F /* PreviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTableViewCell.swift; sourceTree = "<group>"; };
 		B5AA5D4A263AB2B200A2AC9F /* PreviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviewTableViewCell.xib; sourceTree = "<group>"; };
+		B5D1BFDB263AEA7A004FF23D /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		B5D1BFDC263AEA7A004FF23D /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		B5D1BFE0263AEAF2004FF23D /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		D7AB8A3C998FD6958744E0C4 /* Pods-COBSCCOMP192P016_CW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COBSCCOMP192P016_CW.debug.xcconfig"; path = "Target Support Files/Pods-COBSCCOMP192P016_CW/Pods-COBSCCOMP192P016_CW.debug.xcconfig"; sourceTree = "<group>"; };
 		E67534D8E715DBE3A3107F6F /* Pods-COBSCCOMP192P016_CW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COBSCCOMP192P016_CW.release.xcconfig"; path = "Target Support Files/Pods-COBSCCOMP192P016_CW/Pods-COBSCCOMP192P016_CW.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +141,8 @@
 				B565852B2636CB2A0066343E /* SignInViewController.swift */,
 				B56585322636D77D0066343E /* MainViewController.swift */,
 				B5AA5D3E2636ECA800A2AC9F /* SignUpViewController.swift */,
+				B5675A92263AD6640074A4C6 /* PreviewViewController.swift */,
+				B5D1BFE0263AEAF2004FF23D /* CategoryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -151,6 +161,8 @@
 			children = (
 				B5AA5D49263AB2B200A2AC9F /* PreviewTableViewCell.swift */,
 				B5AA5D4A263AB2B200A2AC9F /* PreviewTableViewCell.xib */,
+				B5D1BFDB263AEA7A004FF23D /* CategoryTableViewCell.swift */,
+				B5D1BFDC263AEA7A004FF23D /* CategoryTableViewCell.xib */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -217,6 +229,7 @@
 				B52A7950263687D500D32650 /* LaunchScreen.storyboard in Resources */,
 				B52A794D263687D500D32650 /* Assets.xcassets in Resources */,
 				B56585252636C4AD0066343E /* GoogleService-Info.plist in Resources */,
+				B5D1BFDE263AEA7A004FF23D /* CategoryTableViewCell.xib in Resources */,
 				B52A794B263687D500D32650 /* Main.storyboard in Resources */,
 				B5AA5D4C263AB2B200A2AC9F /* PreviewTableViewCell.xib in Resources */,
 			);
@@ -274,8 +287,11 @@
 				B5AA5D4B263AB2B200A2AC9F /* PreviewTableViewCell.swift in Sources */,
 				B565852C2636CB2A0066343E /* SignInViewController.swift in Sources */,
 				B5AA5D3F2636ECA800A2AC9F /* SignUpViewController.swift in Sources */,
+				B5675A93263AD6640074A4C6 /* PreviewViewController.swift in Sources */,
+				B5D1BFE1263AEAF2004FF23D /* CategoryViewController.swift in Sources */,
 				B52A7944263687D500D32650 /* AppDelegate.swift in Sources */,
 				B5AA5D422636F24400A2AC9F /* InputValidation.swift in Sources */,
+				B5D1BFDD263AEA7A004FF23D /* CategoryTableViewCell.swift in Sources */,
 				B56585372636E7270066343E /* SessionManager.swift in Sources */,
 				B56585302636D03D0066343E /* EntityModel.swift in Sources */,
 				B52A7946263687D500D32650 /* SceneDelegate.swift in Sources */,
