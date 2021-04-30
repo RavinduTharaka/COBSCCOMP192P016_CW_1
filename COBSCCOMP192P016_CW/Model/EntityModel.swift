@@ -23,3 +23,7 @@ struct FoodItems {
     var Image: String
     var category: String
 }
+struct FoodCategory {
+    var id: String
+    var Name : String
+}

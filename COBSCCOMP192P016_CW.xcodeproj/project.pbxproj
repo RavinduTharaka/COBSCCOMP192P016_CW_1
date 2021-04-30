@@ -26,6 +26,7 @@
 		B5D1BFDD263AEA7A004FF23D /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1BFDB263AEA7A004FF23D /* CategoryTableViewCell.swift */; };
 		B5D1BFDE263AEA7A004FF23D /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5D1BFDC263AEA7A004FF23D /* CategoryTableViewCell.xib */; };
 		B5D1BFE1263AEAF2004FF23D /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1BFE0263AEAF2004FF23D /* CategoryViewController.swift */; };
+		B5D1C013263C576C004FF23D /* LinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1C012263C576C004FF23D /* LinkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		B5D1BFDB263AEA7A004FF23D /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		B5D1BFDC263AEA7A004FF23D /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
 		B5D1BFE0263AEAF2004FF23D /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		B5D1C012263C576C004FF23D /* LinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewController.swift; sourceTree = "<group>"; };
 		D7AB8A3C998FD6958744E0C4 /* Pods-COBSCCOMP192P016_CW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COBSCCOMP192P016_CW.debug.xcconfig"; path = "Target Support Files/Pods-COBSCCOMP192P016_CW/Pods-COBSCCOMP192P016_CW.debug.xcconfig"; sourceTree = "<group>"; };
 		E67534D8E715DBE3A3107F6F /* Pods-COBSCCOMP192P016_CW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COBSCCOMP192P016_CW.release.xcconfig"; path = "Target Support Files/Pods-COBSCCOMP192P016_CW/Pods-COBSCCOMP192P016_CW.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +145,7 @@
 				B5AA5D3E2636ECA800A2AC9F /* SignUpViewController.swift */,
 				B5675A92263AD6640074A4C6 /* PreviewViewController.swift */,
 				B5D1BFE0263AEAF2004FF23D /* CategoryViewController.swift */,
+				B5D1C012263C576C004FF23D /* LinkViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D1C013263C576C004FF23D /* LinkViewController.swift in Sources */,
 				B5AA5D4B263AB2B200A2AC9F /* PreviewTableViewCell.swift in Sources */,
 				B565852C2636CB2A0066343E /* SignInViewController.swift in Sources */,
 				B5AA5D3F2636ECA800A2AC9F /* SignUpViewController.swift in Sources */,

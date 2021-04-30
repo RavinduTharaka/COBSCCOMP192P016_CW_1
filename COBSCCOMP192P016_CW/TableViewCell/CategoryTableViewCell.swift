@@ -22,4 +22,12 @@ class CategoryTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func setupView(foodCategory: FoodCategory){
+        
+        lblName.text = foodCategory.Name
+    
 }
+}
+
+
+
